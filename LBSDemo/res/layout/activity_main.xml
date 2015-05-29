@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fontFamily="Times New Roman"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical" 
+   android:background="#0B173B">
+
+   <Button android:id="@+id/getLocation"
+       android:fontFamily="Times New Roman"
+       android:layout_marginTop="50dp"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/get_location"
+   android:background="#81DAF5"
+   android:textColor="#FFFFFF"
+   android:textColorHighlight="#101010"/>
+
+   <Button android:id="@+id/inform"
+       android:fontFamily="Times New Roman"
+       android:layout_marginTop="50dp"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/info"
+   android:background="#81DAF5"
+   android:textColor="#FFFFFF"/>
+  
+   <Button android:id="@+id/save"
+       android:fontFamily="Times New Roman"
+       android:layout_marginTop="50dp"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/save"
+   android:background="#81DAF5"
+   android:textColor="#FFFFFF"/>
+      
+    <TextView
+   android:layout_marginTop="100dp"
+	android:fontFamily="Times New Roman"
+   android:id="@+id/locationLabel"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textColor="#FFFFFF"
+   android:textSize="25dp"/>
+    
+   <TextView
+       android:layout_marginTop="100dp"
+       android:fontFamily="Times New Roman"
+   android:id="@+id/addressLabel"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textColor="#FFFFFF"
+   android:textSize="25dp"/>
+    
+</LinearLayout>

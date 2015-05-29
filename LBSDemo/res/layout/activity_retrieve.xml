@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fontFamily="Times New Roman"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical" 
+   android:background="#0B173B">
+
+    <Spinner
+        android:id="@+id/choiceSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:background="#81DAF5"
+   		android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#81DAF5"
+        android:text="@string/submit_button"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
